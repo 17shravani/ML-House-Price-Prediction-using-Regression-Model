@@ -1,0 +1,30 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+bin/
+lib/
+include/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Model & Data artifacts (optional, but joblibs are fine if small)
+# models/*.joblib
+# data/*.csv
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Snapshots
+.snapshots/
+.offline-markdown-preview/
